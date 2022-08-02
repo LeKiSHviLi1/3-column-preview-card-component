@@ -1,0 +1,134 @@
+@media (max-width: 940px) {
+    .card {
+        width: 720px;
+        height: 350px;
+        margin: 0 auto;
+    }
+    p{
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 720px) {
+    .card {
+        flex-direction: column;
+        width: 350px;
+        height: 1320px;
+        margin: 20px auto;
+    }
+
+    p {
+        margin-bottom: 45px;
+    }
+
+    .sedans {
+        background-color: hsl(31, 77%, 52%);
+        width: 350px;
+        height: 33.33%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .suvs {
+        background-color: hsl(184, 100%, 22%);
+        width: 350px;
+        height: 33.33%;
+    }
+
+    .luxury {
+        background-color: hsl(179, 100%, 13%);
+        width: 350px;
+        height: 33.33%;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .button1:hover{
+        background-color: hsl(0, 0%, 95%);
+        color: hsl(31, 77%, 52%);
+        cursor: auto;
+        border: 0px;
+    }
+    .button2:hover{
+        background-color:hsl(0, 0%, 95%);
+        color: hsl(184, 100%, 22%);
+        border-width: 0;
+        cursor: auto;
+
+    }
+    .button3:hover{
+        background-color:hsl(0, 0%, 95%);
+        color: hsl(179, 100%, 13%);        
+        cursor: auto;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .card {
+        display:flex;
+        align-self: center;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-self: center;
+        flex-direction: column;
+        width: 300px;
+        height: 1320px;
+        margin: 20px auto;
+    }
+
+    p {
+        margin-bottom: 35px;
+    }
+
+    .sedans {
+        background-color: hsl(31, 77%, 52%);
+        width: 300px;
+        height: 33.33%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .suvs {
+        background-color: hsl(184, 100%, 22%);
+        width: 300px;
+        height: 33.33%;
+    }
+
+    .luxury {
+        background-color: hsl(179, 100%, 13%);
+        width: 300px;
+        height: 33.33%;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .button1:hover{
+        background-color: hsl(0, 0%, 95%);
+        color: hsl(31, 77%, 52%);
+        cursor: auto;
+        border: 0px;
+    }
+    .button2:hover{
+        background-color:hsl(0, 0%, 95%);
+        color: hsl(184, 100%, 22%);
+        border-width: 0;
+        cursor: auto;
+
+    }
+    .button3:hover{
+        background-color:hsl(0, 0%, 95%);
+        color: hsl(179, 100%, 13%);        
+        cursor: auto;
+    }
+
+}
